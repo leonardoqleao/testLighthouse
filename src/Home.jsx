@@ -1,13 +1,8 @@
-import { Component } from "react";
-
-export default class Home extends Component {
-  render(){
-    return (
-      <div className="Home">
-        <h1>
-          asdasdasd
-        </h1>
-      </div>
-    )
-  }
+import { Navbar } from "./content"
+export default function Home() {
+  return (
+    <div className="Home">
+      <Navbar/>
+    </div>
+  )
 }
