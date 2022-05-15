@@ -1,6 +1,15 @@
-.navbarLeft{
-    font-size: xx-large;
+.navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
 }
-.teste{
-    background-color: black;
+.navbarLeft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    max-width: 15.49vw;
 }

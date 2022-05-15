@@ -1,7 +1,9 @@
 import Svg from '../../svg'
 export default function Navbar() {
     return (
-        <div className="Navbar">
+        <div className="navbar">
+            <div className="navbarTop">
+            </div>
             <div className="navbarLeft">
                 <nav>
                     <ul>
@@ -11,11 +13,12 @@ export default function Navbar() {
                         <li><Svg type={'shopping-cart'}  height={16} fill={"#5A5773"}/>Vendas</li>
                         <li><Svg type={'user'}           height={16} fill={"#5A5773"}/>Clientes</li>
                         <li><Svg type={'receipt'}        height={16} fill={"#5A5773"}/>Cobrança</li>
-                        <li><Svg className='teste' type={'cog'}            height={16} fill={"#5A5773"}/>Configurações</li>
+                        <li><Svg type={'cog'}            height={16} fill={"#5A5773"}/>Configurações</li>
                     </ul>
                 </nav>
-            </div>
-            <div className="navbarTop">
+                    <ul>
+                        <li><Svg type={'sign-out-alt'} height={16} fill={"#5A5773"}/>Sair</li>
+                    </ul>
             </div>
         </div>
     )
