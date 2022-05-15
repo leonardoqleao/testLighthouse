@@ -1,3 +1,5 @@
 export * from './index.css'
 export * from './home.css'
 export * from '../content/Navbar/css/navbar.css'
+export * from '../content/Navbar/css/navbarTop.css'
+export * from '../content/Navbar/css/navbarLeft.css'

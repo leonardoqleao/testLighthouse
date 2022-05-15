@@ -1,0 +1,11 @@
+.navbarTop {
+    height: 7.39vh;
+    width: 100vw;
+    background-color: rgba(0, 128, 0, 0.164);
+}
+
+.navbarLogo{
+    width: 15.49vw;
+    height: 7.39vh;
+    background-color: rgb(255, 144, 144);
+}
