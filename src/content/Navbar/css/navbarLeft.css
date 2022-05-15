@@ -1,3 +1,10 @@
+:root{
+    --nleft-w: 15.49vw;
+    --nleft-h: 92.61vh;
+    --nleft-w-calc: calc(15.49vw/100vw);
+    --nleft-h-calc: calc(92.61/100)
+}
+
 .navbarLeft {
     display: flex;
     flex-direction: column;
@@ -6,6 +13,7 @@
     justify-content: space-between;
     width: 15.49vw;
     background-color: #1800f02f;
+    border: solid 1px black;
 }
 
 .navbarLeft li {
@@ -17,7 +25,13 @@
     opacity: 0.5046037946428571;
     text-align: left;
     border: solid 1px black;
+    margin: 1px 0;
     height: 5.82vh;
+    width: 68.11%;
+    margin-left: 10.72%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .navbarLeft li:hover {

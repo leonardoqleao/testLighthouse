@@ -2,10 +2,12 @@
     height: 7.39vh;
     width: 100vw;
     background-color: rgba(0, 128, 0, 0.164);
+    border: solid 1px black;
 }
 
 .navbarLogo{
     width: 15.49vw;
     height: 7.39vh;
     background-color: rgb(255, 144, 144);
+    border: solid 1px black;
 }
