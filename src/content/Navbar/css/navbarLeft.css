@@ -1,4 +1,4 @@
-:root{
+:root {
     --nleft-w: 15.49vw;
     --nleft-h: 92.61vh;
     --nleft-w-calc: calc(15.49vw/100vw);
@@ -15,15 +15,17 @@
     background-color: #1800f02f;
     border: solid 1px black;
 }
-.navbarOptions{
+
+.navbarOptions {
     margin-top: 2.67vh;
 }
-.navbarOptions .svgClass{
+
+.navbarOptions .svgClass {
     margin: 33.33% 8%;
 }
-.navbarLeft li {
+
+.navbarOptions li {
     color: #5A5773;
-    font-family: var(--font-mede);
     font-size: 14px;
     letter-spacing: -0.4px;
     line-height: 24px;
@@ -42,4 +44,23 @@
 .navbarLeft li:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+.navbarSignOut li {
+    border: solid 1px black;
+    width: 23%;
+    margin-left: 11.48%;
+    margin-bottom: 15%;
+    color: #5A5773;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+    opacity: 0.5046037946428571;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarSignOut .svgClass {
+    margin-left: 8%;
 }
