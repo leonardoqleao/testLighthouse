@@ -1,15 +1,44 @@
 .navbar {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
 .navbarLeft {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
-    height: 100vh;
+    height: 92.61vh;
     justify-content: space-between;
-    max-width: 15.49vw;
+    width: 15.49vw;
+    background-color: #1800f02f;
+}
+
+.navbarLeft li {
+    color: #5A5773;
+    font-family: var(--font-mede);
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 24px;
+    opacity: 0.5046037946428571;
+    text-align: left;
+    border: solid 1px black;
+    height: 5.82vh;
+}
+
+.navbarLeft li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.navbarTop {
+    height: 7.39vh;
+    width: 100vw;
+    background-color: rgba(0, 128, 0, 0.164);
+}
+
+.navbarLogo{
+    width: 15.49vw;
+    height: 7.39vh;
+    background-color: rgb(255, 144, 144);
 }
