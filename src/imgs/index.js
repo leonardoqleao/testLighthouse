@@ -1,4 +1,4 @@
-export default function Svg({ type, fill, height, className }) {
+export default function Imgs({ type, fill, height, className }) {
     switch (type) {
         case 'bars':           return <Bars          fill={fill} height={height} className={className}/>
         case 'bell':           return <Bell          fill={fill} height={height} className={className}/>
@@ -15,8 +15,15 @@ export default function Svg({ type, fill, height, className }) {
         case 'chart-bar':      return <ChartBars     fill={fill} height={height} className={className}/>
         case 'dollar-sign':    return <DollarSign    fill={fill} height={height} className={className}/>
         case 'comment':        return <Comment       fill={fill} height={height} className={className}/>
+        case 'logo':           return <Logo                                      className={className}/>
         default:               return <></>
     }
+}
+
+function Logo({ className }) {
+    return (
+        <img className={className} src="./logo.png" alt="logo" />
+    )
 }
 
 function Comment({ className, fill, height }) {
