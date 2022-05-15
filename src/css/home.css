@@ -1,3 +1,5 @@
-.Home{
-  font-size: smaller;
+.Home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
