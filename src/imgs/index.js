@@ -23,7 +23,7 @@ export default function Imgs({ type, fill, height, className }) {
 
 function LogoName({ className }) {
     return (
-        <img className={className} src="./Paytient.png" alt="Paytient" />
+        <img className={className} src="https://lh5.googleusercontent.com/iAj-sIUjekneDZj_T7AaDXhqMbFKlzFyAKsTa-V-RAb8XtoulcK1iEmUicJDuuFfnIlM3kSM4Wk9kA=w1858-h977" alt="Paytient" />
     )
 }
 function Logo({ className }) {
