@@ -5,9 +5,34 @@
     border: solid 1px black;
 }
 
-.navbarLogo{
+.navbarLogo {
     width: 15.49vw;
     height: 7.39vh;
     background-color: rgb(255, 144, 144);
     border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarLogo .container {
+    width: 60%;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarLogo .container:hover {
+    cursor: pointer;
+}
+
+.logo {
+    width: 34px;
+    margin: 10px;
+}
+
+.logoname {
+    margin-top: 10px;
+    width: 90px;
 }
