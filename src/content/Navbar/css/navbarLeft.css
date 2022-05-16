@@ -36,6 +36,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transition: all .1s;
+}
+.navbarOptions .selected{
+    fill: #00D954;
+    opacity: 1;
 }
 .svgClass {
     padding: 3% 0 0 0;
