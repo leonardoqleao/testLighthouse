@@ -15,20 +15,32 @@ export default function Imgs({ type, fill, height, className }) {
         case 'chart-bar':      return <ChartBars     fill={fill} height={height} className={className}/>
         case 'dollar-sign':    return <DollarSign    fill={fill} height={height} className={className}/>
         case 'comment':        return <Comment       fill={fill} height={height} className={className}/>
+        case 'logoname':       return <LogoName      fill={fill} height={height} className={className}/>
         case 'logo':           return <Logo                                      className={className}/>
-        case 'logoname':       return <LogoName                                  className={className}/>
         default:               return <></>
     }
 }
 
-function LogoName({ className }) {
-    return (
-        <img className={className} src="https://lh5.googleusercontent.com/iAj-sIUjekneDZj_T7AaDXhqMbFKlzFyAKsTa-V-RAb8XtoulcK1iEmUicJDuuFfnIlM3kSM4Wk9kA=w1858-h977" alt="Paytient" />
-    )
-}
 function Logo({ className }) {
     return (
         <img className={className} src="./logo.png" alt="logo" />
+    )
+}
+function LogoName({ className }) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg"viewBox="0 0 480.000000 113.000000">
+            <g transform="translate(0.000000,113.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path d="M10 701 l0 -411 80 0 80 0 0 119 0 119 158 4 c132 3 164 7 203 24 112 52 164 137 163 269 -1 52 -7 93 -18 118 -25 57 -80 112 -139 138 -49 23 -65 24 -289 27 l-238 3 0 -410z m486 217 c31 -34 34 -43 34 -98 0 -55 -3 -64 -34 -98 l-34 -37 -146 -3 -146 -3 0 141 0 141 146 -3 146 -3 34 -37z"/>
+                <path d="M2596 1084 c-73 -74 19 -188 112 -140 60 31 69 90 23 137 -40 39 -97 41 -135 3z"/>
+                <path d="M2198 1013 l-38 -4 0 -292 c0 -161 5 -308 10 -328 18 -66 99 -119 180 -119 48 0 128 18 136 31 3 5 -3 33 -12 63 l-17 54 -57 -5 c-84 -8 -90 4 -90 179 l0 137 78 3 77 3 3 63 3 62 -81 0 -80 0 0 80 0 80 -37 -2 c-21 -1 -55 -3 -75 -5z"/>
+                <path d="M4288 1013 l-38 -4 0 -292 c0 -161 5 -308 10 -328 18 -66 99 -119 180 -119 48 0 128 18 136 31 3 5 -3 33 -12 63 l-17 54 -57 -5 c-84 -8 -90 4 -90 179 l0 137 78 3 77 3 3 63 3 62 -81 0 -80 0 0 80 0 80 -37 -2 c-21 -1 -55 -3 -75 -5z"/>
+                <path d="M915 856 c-56 -26 -116 -87 -142 -143 -27 -60 -24 -215 5 -274 77 -157 280 -210 421 -110 31 23 41 19 41 -16 0 -22 3 -23 70 -23 l70 0 0 290 0 290 -70 0 c-67 0 -70 -1 -70 -23 0 -35 -10 -39 -41 -16 -76 54 -199 65 -284 25z m229 -134 c53 -31 71 -66 71 -142 0 -54 -4 -75 -21 -96 -37 -50 -68 -67 -126 -67 -59 -1 -101 18 -133 61 -26 35 -33 138 -12 178 45 86 137 113 221 66z"/>
+                <path d="M1479 823 c10 -27 60 -151 111 -278 50 -126 92 -236 93 -245 0 -8 -23 -69 -51 -134 -29 -66 -52 -124 -52 -128 0 -5 37 -8 81 -6 l82 3 178 413 c99 227 179 415 179 418 0 2 -37 4 -83 4 l-84 0 -68 -172 c-37 -95 -73 -186 -80 -203 -11 -28 -13 -25 -52 90 -23 66 -56 157 -73 203 l-32 82 -84 0 -84 0 19 -47z"/>
+                <path d="M3052 851 c-73 -25 -122 -67 -157 -136 -27 -53 -30 -68 -30 -149 1 -78 5 -98 27 -141 14 -27 39 -62 55 -76 114 -107 335 -108 467 -4 19 15 19 16 -20 57 -21 24 -40 44 -40 46 -1 2 -21 -7 -45 -20 -63 -32 -155 -37 -211 -9 -40 19 -78 63 -78 90 0 8 69 11 226 11 l227 0 -6 73 c-7 98 -29 148 -89 202 -82 74 -211 96 -326 56z m206 -131 c27 -17 62 -70 62 -95 0 -3 -68 -5 -151 -5 l-150 0 7 23 c11 36 35 67 63 82 40 22 130 19 169 -5z"/>
+                <path d="M3817 855 c-21 -8 -51 -23 -67 -35 l-28 -20 -7 30 c-6 30 -8 30 -71 30 l-64 0 0 -290 0 -290 75 0 75 0 0 168 c0 190 13 237 69 266 38 20 103 20 140 1 50 -25 61 -73 61 -265 l0 -170 76 0 75 0 -3 213 c-3 194 -5 215 -25 252 -27 51 -57 79 -113 104 -53 24 -136 26 -193 6z"/>
+                <path d="M2590 570 l0 -290 75 0 75 0 0 290 0 290 -75 0 -75 0 0 -290z"/>
+            </g>
+        </svg>
     )
 }
 
