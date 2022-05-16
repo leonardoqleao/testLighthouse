@@ -3,7 +3,7 @@ import { NavbarOptions } from './components'
 
 export default function Navbar() {
     return (
-        <div className="navbar">
+        <>
             <div className="navbarTop">
                 <div className='navbarLogo'>
                     <div className='container'>
@@ -17,6 +17,6 @@ export default function Navbar() {
                 </div>
             </div>
             <NavbarOptions />
-        </div>
+        </>
     )
 }
