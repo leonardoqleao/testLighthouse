@@ -4,9 +4,9 @@ export default function NavbarOptions() {
     return (
         <nav className="navbarLeft" >
             <ul className='navbarOptions'>
-                <li>
+                <li style={{opacity: 1 }}>
                     <span className='svgClass'>
-                        <Imgs type={'chart-bar'} height={16} fill={"#00D954"} />
+                        <Imgs type={'chart-bar'} height={16} fill={'#00D954'} />
                     </span>
                     <span>
                         Dashboard
@@ -14,7 +14,7 @@ export default function NavbarOptions() {
                 </li>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'shovel'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'shovel'} height={16} />
                     </span>
                     <span>
                         Leads
@@ -22,7 +22,7 @@ export default function NavbarOptions() {
                 </li>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'bullseye-arrow'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'bullseye-arrow'} height={16} />
                     </span>
                     <span>
                         Campanhas
@@ -30,7 +30,7 @@ export default function NavbarOptions() {
                 </li>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'shopping-cart'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'shopping-cart'} height={16} />
                     </span>
                     <span>
                         Vendas
@@ -38,7 +38,7 @@ export default function NavbarOptions() {
                 </li>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'user'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'user'} height={16} />
                     </span>
                     <span>
                         Clientes
@@ -46,7 +46,7 @@ export default function NavbarOptions() {
                 </li>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'receipt'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'receipt'} height={16} />
                     </span>
                     <span>
                         Cobrança
@@ -54,7 +54,7 @@ export default function NavbarOptions() {
                 </li>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'cog'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'cog'} height={16} />
                     </span>
                     <span>
                         Configurações
@@ -64,7 +64,7 @@ export default function NavbarOptions() {
             <ul className='navbarSignOut'>
                 <li>
                     <span className='svgClass'>
-                        <Imgs type={'sign-out-alt'} height={16} fill={"#5A5773"} />
+                        <Imgs type={'sign-out-alt'} height={16} />
                     </span>
                     <span>
                         Sair
