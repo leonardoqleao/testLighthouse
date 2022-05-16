@@ -37,4 +37,5 @@ ul li, ul{
   background-color:#F8F7FB;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
