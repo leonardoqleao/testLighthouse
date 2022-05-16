@@ -6,6 +6,7 @@
 }
 
 .navbarLeft {
+    font-family: var(--font-mede);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -19,7 +20,6 @@
 .navbarOptions {
     margin-top: 2.67vh;
 }
-
 
 .navbarOptions li {
     color: #5A5773;

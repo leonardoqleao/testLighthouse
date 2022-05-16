@@ -39,3 +39,7 @@ ul li, ul{
   height: 100vh;
   overflow: hidden;
 }
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
