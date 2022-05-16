@@ -16,10 +16,16 @@ export default function Imgs({ type, fill, height, className }) {
         case 'dollar-sign':    return <DollarSign    fill={fill} height={height} className={className}/>
         case 'comment':        return <Comment       fill={fill} height={height} className={className}/>
         case 'logo':           return <Logo                                      className={className}/>
+        case 'logoname':       return <LogoName                                  className={className}/>
         default:               return <></>
     }
 }
 
+function LogoName({ className }) {
+    return (
+        <img className={className} src="./Paytient.png" alt="Paytient" />
+    )
+}
 function Logo({ className }) {
     return (
         <img className={className} src="./logo.png" alt="logo" />
