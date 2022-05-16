@@ -20,8 +20,8 @@
     margin-top: 2.67vh;
 }
 
-.navbarOptions .svgClass {
-    margin: 33.33% 8%;
+.svgClass {
+    margin: 8%;
 }
 
 .navbarOptions li {
@@ -60,7 +60,4 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.navbarSignOut .svgClass {
-    margin-left: 8%;
 }
