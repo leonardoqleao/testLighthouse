@@ -10,8 +10,8 @@ export default function Navbar() {
                         <div>
                             <Imgs type={'logo'} className={'logo'} />
                         </div>
-                        <div>
-                            <Imgs type={'logoname'} className={'logoname'} />
+                        <div className='logoname'>
+                            <Imgs type={'logoname'} />
                         </div>
                     </div>
                 </div>
