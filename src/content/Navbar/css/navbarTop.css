@@ -3,6 +3,8 @@
     width: 100vw;
     background-color: rgba(0, 128, 0, 0.164);
     border: solid 1px black;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbarLogo {
@@ -35,4 +37,17 @@
 .logoname {
     margin-top: 10px;
     width: 90px;
+}
+
+.navbarTop2{
+    width: 84.51%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.myPicture{
+    border-radius: 100%;
+    width: 30px;
 }
