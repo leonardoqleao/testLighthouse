@@ -17,8 +17,14 @@ export default function Imgs({ type, fill, height, className }) {
         case 'comment':        return <Comment       fill={fill} height={height} className={className}/>
         case 'logoname':       return <LogoName      fill={fill} height={height} className={className}/>
         case 'logo':           return <Logo                                      className={className}/>
+        case 'mypicutre':      return <MyPicture                                 className={className}/>
         default:               return <></>
     }
+}
+function MyPicture({ className }){
+    return (
+        <img className={className} src="https://media-exp1.licdn.com/dms/image/C5603AQEK0umQ8cMaYA/profile-displayphoto-shrink_200_200/0/1636030508682?e=1658361600&v=beta&t=qNa8Vu3kNJhnSGvKWY8v5xuyjQi1-eF8FuAvGtQbdv0" alt="myImg" />
+    )
 }
 
 function Logo({ className }) {
