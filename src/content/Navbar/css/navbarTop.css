@@ -50,6 +50,12 @@
 .myPicture{
     border-radius: 100%;
     width: 30px;
+    margin: 0 20px 0 10px;
+    transition: all .1s;
+}
+.myPicture:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .bars {
@@ -58,6 +64,14 @@
     fill: #5A5773;
     transition: all .1s;
 }
-.bars:hover{
+
+.comment, .bell{
+    margin: 0 10px;
+    cursor: pointer;
+    fill: #5A5773;
+    transition: all .1s;
+}
+
+.comment:hover, .bell:hover, .bars:hover{
     fill:black;
 }
