@@ -75,3 +75,16 @@
 .comment:hover, .bell:hover, .bars:hover{
     fill:black;
 }
+
+.notificationNumbers{
+    font-family: var(--font-reg);
+    font-size: small;
+    background-color: #00D954;
+    color: white;
+    border-radius: 100%;
+    width: 22px;
+    height: 20px;
+    margin: -6px 19px;
+    position: absolute;
+    text-align: center;
+}
