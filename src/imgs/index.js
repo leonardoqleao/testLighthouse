@@ -26,9 +26,9 @@ function Logo({ className }) {
         <img className={className} src="./logo.png" alt="logo" />
     )
 }
-function LogoName({ className }) {
+function LogoName({ className, fill, height }) {
     return (
-        <svg className={className} xmlns="http://www.w3.org/2000/svg"viewBox="0 0 480.000000 113.000000">
+        <svg fill={fill} height={height} className={className} xmlns="http://www.w3.org/2000/svg"viewBox="0 0 480.000000 113.000000">
             <g transform="translate(0.000000,113.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
                 <path d="M10 701 l0 -411 80 0 80 0 0 119 0 119 158 4 c132 3 164 7 203 24 112 52 164 137 163 269 -1 52 -7 93 -18 118 -25 57 -80 112 -139 138 -49 23 -65 24 -289 27 l-238 3 0 -410z m486 217 c31 -34 34 -43 34 -98 0 -55 -3 -64 -34 -98 l-34 -37 -146 -3 -146 -3 0 141 0 141 146 -3 146 -3 34 -37z"/>
                 <path d="M2596 1084 c-73 -74 19 -188 112 -140 60 31 69 90 23 137 -40 39 -97 41 -135 3z"/>
