@@ -91,3 +91,49 @@
         --dashClose: 49.50%;
     }
 }
+
+@media (max-height: 720px) {
+    .navbarTop, .navbarLogo {
+        height: 10vh;
+    }
+    .navbarLeft {
+        height: 90vh;
+    }
+    .navbarOptions li {
+        height: 7vh;
+    }
+    .settingsUser{
+        height: 50vh;
+        top: 10%;
+    }
+}
+@media (max-height: 520px) {
+    .navbarTop, .navbarLogo {
+        height: 13vh;
+    }
+    .navbarLeft {
+        height: 87vh;
+    }
+    .navbarOptions li {
+        height: 8vh;
+    }
+    .settingsUser{
+        height: 50vh;
+        top: 13%;
+    }
+}
+@media (max-height: 420px) {
+    .navbarTop, .navbarLogo {
+        height: 17vh;
+    }
+    .navbarLeft {
+        height: 83vh;
+    }
+    .navbarOptions li {
+        height: 9vh;
+    }
+    .settingsUser{
+        height: 70vh;
+        top: 18%;
+    }
+}
