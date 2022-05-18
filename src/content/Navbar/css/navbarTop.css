@@ -81,17 +81,23 @@
 }
 
 .notificationNumbers {
-    font-family: var(--font-reg);
-    font-size: small;
     background-color: #00D954;
-    color: white;
     border-radius: 100%;
     width: 22px;
-    height: 20px;
+    height: 22px;
     margin: -6px 19px;
     position: absolute;
     text-align: center;
-
+}
+.notificationNumbers p {
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-reg);
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .settingsUser {
