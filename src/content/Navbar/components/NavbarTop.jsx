@@ -36,7 +36,7 @@ export const NavbarTop = () => {
                     </div>
                 </div>
             </div>
-            <div className='navbarTop2'>
+            <div className={style.navbarTop2}>
                 <BarsClick />
                 <div>
                     <span onClick={() => setInfNotifyComment(0)} className='comment'>
@@ -87,7 +87,8 @@ const BarsClick = () => {
             navbarOptions: 'navbarOptions navbarOptionsClose',
             navbarSignOut: 'navbarSignOut navbarSignOutClose',
             dashboard: 'dashboard dashboardNavbarClose',
-            navbarLogo: 'navbarLogo navbarLogoClose'
+            navbarLogo: 'navbarLogo navbarLogoClose',
+            navbarTop2: 'navbarTop2 navbarTop2Close'
         }
         const navbarOpen = {
             open: true,
@@ -95,7 +96,8 @@ const BarsClick = () => {
             navbarOptions: 'navbarOptions',
             navbarSignOut: 'navbarSignOut',
             dashboard: 'dashboard dashboardNavbarOpen',
-            navbarLogo: 'navbarLogo navbarLogoOpen'
+            navbarLogo: 'navbarLogo navbarLogoOpen',
+            navbarTop2: 'navbarTop2 navbarTop2Open'
         }
         if (style.open) {
             setStyle(navbarClose)
