@@ -36,11 +36,18 @@
     align-items: center;
     justify-content: flex-start;
     transition: all .1s;
+
 }
-.navbarOptions .selected{
+
+.navbarOptions p {
+    animation: transtionOpenNavbar .1s;
+}
+
+.navbarOptions .selected {
     fill: #00D954;
     opacity: 1;
 }
+
 .svgClass {
     padding: 3% 0 0 0;
     margin: 0 8%;
@@ -69,27 +76,31 @@
     justify-content: space-between;
 }
 
-.navbarLeftOpen{
+.navbarLeftOpen {
     width: var(--navOpenW);
 }
+
 .navbarLeftClose {
     width: var(--navCloseW);
 }
 
-.navbarOptionsClose p{
+.navbarOptionsClose p {
     display: none;
 }
-.navbarOptionsClose li{
+
+.navbarOptionsClose li {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navbarSignOutClose li{
+
+.navbarSignOutClose li {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 70%;
 }
-.navbarSignOutClose p{
+
+.navbarSignOutClose p {
     display: none;
 }
