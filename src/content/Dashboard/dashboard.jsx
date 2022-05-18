@@ -10,9 +10,9 @@ export default function Dashboard() {
                 <h1>
                     Indicadores
                 </h1>
-                <div>
+                <div className="container">
                     <p>
-                        Período: Últimos 12 meses
+                       <b>Período:</b>Últimos 12 meses
                     </p>
                     <div className="filter">
                         <Imgs type={"filter"} height={16}/>

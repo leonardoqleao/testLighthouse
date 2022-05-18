@@ -1,3 +1,77 @@
+.title {
+    height: 13%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h1 {
+    color: #5A5773;
+    font-family: var(--font-bold);
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    line-height: 26px;
+    text-align: left;
+    margin: 0 2.2vw;
+}
+
+.title .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title p {
+    color: #666666;
+    font-family: var(--font-rob);
+    font-size: 12px;
+    letter-spacing: -0.02px;
+    line-height: 24px;
+    opacity: 0.5047723679315477;
+    text-align: left;
+}
+
+.filter {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 10px 15px 30px 0 rgb(35 38 90 / 6%);
+    margin: 0 2vw 0 0.8vw;
+    width: 87px;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s;
+}
+.filter svg {
+    fill: #00D954;
+}
+.filter p {
+    color: #5A5773;
+    font-family: var(--font-mede);;
+    font-size: 13px;
+    letter-spacing: -0.37px;
+    line-height: 24px;
+    text-align: left;
+}
+.filter:hover{
+    cursor: pointer;
+    background-color: #dadada;
+}
+
+
+
+
+
+
+
+
+
+
+
 .dashboard {
     height: 92.61%;
 }
@@ -5,18 +79,15 @@
 .dashboardW {
     width: var(--dashOpen);
 }
+
 .grafic {
     height: 60%;
     width: 100%;
     background-color: blue;
 }
+
 .properties {
     height: 27%;
     width: 100%;
     background-color: brown;
-}
-.title {
-    height: 13%;
-    width: 100%;
-    background-color: gray;
 }
