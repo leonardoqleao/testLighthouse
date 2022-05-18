@@ -15,12 +15,16 @@
     align-items: center;
     justify-content: center;
 }
-.navbarLogoW{
+
+.navbarLogoW {
     width: var(--navCloseW);
 }
-.navbarLogoClose .logoname{
+
+.navbarLogoClose .logoname,
+.navbarLogoW .logoname {
     display: none;
 }
+
 .navbarLogo .container {
     width: 60%;
     height: 51px;
@@ -41,14 +45,18 @@
 .logoname {
     margin-top: 10px;
     width: 90px;
+    animation: transtionOpenNavbar .1s;
 }
 
 .navbarTop2 {
-    width: 84.51%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+}
+
+.navbarTop2w {
+    width: var(--dashOpen);
 }
 
 .myPicture {
@@ -93,6 +101,7 @@
     position: absolute;
     text-align: center;
 }
+
 .notificationNumbers p {
     width: 100%;
     height: 100%;
@@ -142,26 +151,9 @@
     padding: 0 0 0 10%;
     transition: all .1s;
 }
-.settingsUser .list li:hover{
+
+.settingsUser .list li:hover {
     opacity: 1;
     background-color: #E6EAEE;
     cursor: pointer;
-}
-.transitonOpen{
-    display: block;
-    animation: transitonOpen .1s;
-}
-
-@keyframes transitonOpen {
-    from{ height: 1vh; }
-    to{ height: 39.1vh; }
-}
-.transitonClose{
-    display: block;
-    animation: transitonClose .1s forwards;
-}
-
-@keyframes transitonClose {
-    from{ height: 39.1vh; }
-    to{ height: 0;}
 }
