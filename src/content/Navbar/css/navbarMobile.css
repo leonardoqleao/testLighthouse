@@ -1,15 +1,22 @@
 @media (max-width: 980px) {
-    .navbarLeft, .navbarLogo{
-        width: 16.49vw;
-    }.navbarTop2, .dashboard {
+    :root{
+        --navCloseW: 5%;
+        --navOpenW: 16.49%;
+        --dashOpen: 95%;
+        --dashClose: 83.50%;
+    }
+    .navbarTop2, .dashboard {
         width: 83.50%;
     }.settingsUser {
         width: 15.7vw;
     }
 }
 @media (max-width: 840px) {
-    .navbarLeft, .navbarLogo{
-        width: 20.49vw;
+    :root{
+        --navCloseW: 7%;
+        --navOpenW: 20.49%;
+        --dashOpen: 93%;
+        --dashClose: 79.50%;
     }
     .navbarTop2, .dashboard {
         width: 79.50%;
@@ -18,8 +25,11 @@
     }
 }
 @media (max-width: 720px) {
-    .navbarLeft, .navbarLogo{
-        width: 25.49vw;
+    :root{
+        --navCloseW: 8%;
+        --navOpenW: 25.49%;
+        --dashOpen: 92%;
+        --dashClose: 74.50%;
     }
     .navbarTop2, .dashboard {
         width: 74.50%;
@@ -29,16 +39,22 @@
     }
 }
 @media (max-width: 576px) {
-    .navbarLeft, .navbarLogo{
-        width: 30.49vw;
+    :root{
+        --navCloseW: 10%;
+        --navOpenW: 30.49%;
+        --dashOpen: 90%;
+        --dashClose: 69.50%;
     }
     .navbarTop2, .dashboard {
         width: 69.50%;
     }
 }
 @media (max-width: 480px) {
-    .navbarLeft, .navbarLogo{
-        width: 40.49vw;
+    :root{
+        --navCloseW: 10%;
+        --navOpenW: 40.49%;
+        --dashOpen: 90%;
+        --dashClose: 59.50%;
     }
     .navbarTop2, .dashboard {
         width: 59.50%;
@@ -49,8 +65,11 @@
 
 }
 @media (max-width: 400px) {
-    .navbarLeft, .navbarLogo{
-        width: 60.49vw;
+    :root{
+        --navCloseW: 15%;
+        --navOpenW: 60.49%;
+        --dashOpen: 85%;
+        --dashClose: 39.50%;
     }
     .navbarTop2, .dashboard {
         width: 39.50%;
