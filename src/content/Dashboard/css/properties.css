@@ -1,9 +1,9 @@
 .properties {
     height: 27%;
     width: 100%;
-    background-color: brown;
     display: flex;
 }
+
 .statusProperties svg {
     margin: 7px 7px 0 0;
 }
@@ -20,11 +20,13 @@
     justify-content: space-around;
     transition: all .1s;
 }
-.propertiBox:hover{
+
+.propertiBox:hover {
     cursor: pointer;
     box-shadow: 0px 0px 40px 20px rgba(82, 82, 82, 0.271);
 }
-.vendas{
+
+.vendas {
     margin: 0 1.11% 0 2.22%;
 }
 
@@ -62,7 +64,8 @@
 
 .valueProperties p {
     color: #7e7e7e;
-    font-family: var(--font-bold);;
+    font-family: var(--font-bold);
+    ;
     font-size: 19px;
     letter-spacing: -0.11px;
     line-height: 24px;
@@ -85,6 +88,7 @@
 .vendas .statusProperties svg {
     fill: #00D954;
 }
+
 .faturamento .statusProperties svg {
     fill: #00D954;
 }
@@ -100,10 +104,12 @@
 .conversao {
     margin: 0 1.11% 0 1.11%;
 }
+
 .conversao .titleProperties svg {
     fill: #FFD610;
 }
-.conversao .statusProperties svg{
+
+.conversao .statusProperties svg {
     margin: 0 7px 7px 0;
     fill: #D90000;
     transform: rotate(180deg);
@@ -112,9 +118,11 @@
 .leads {
     margin: 0 2.22% 0 1.11%;
 }
-.leads .titleProperties svg{
+
+.leads .titleProperties svg {
     fill: #9000D9;
 }
-.leads .statusProperties svg{
+
+.leads .statusProperties svg {
     fill: #00D954;
 }
