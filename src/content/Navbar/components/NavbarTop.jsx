@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Imgs from '../../../imgs'
 
 export const NavbarTop = () => {
@@ -30,7 +30,7 @@ export const NavbarTop = () => {
                         <Imgs type={'logo'} className={'logo'} />
                     </span>
                     <div className='logoname'>
-                        <Imgs type={'logoname'} />
+                        <Imgs height={20} type={'logoname'} />
                     </div>
                 </div>
             </div>
@@ -49,11 +49,35 @@ export const NavbarTop = () => {
                         <span style={{ display: displayInfNotifyBell }} className='notificationNumbers'>{infNotifyBell}</span>
                         <Imgs type={'bell'} height={30} />
                     </span>
-                    <span>
-                        <Imgs className={'myPicture'} type={'mypicutre'} />
-                    </span>
+                    <SettingsUser />
                 </div>
             </div>
         </nav>
+    )
+}
+
+const SettingsUser = () => {
+    const [settingsUserDisplay, setSettingUserDisplay] = useState('settingsUser')
+    return (
+        <span onClick={() => {
+            if (settingsUserDisplay === 'settingsUser transitonOpen') {
+                setSettingUserDisplay('settingsUser transitonClose')
+            } else {
+                setSettingUserDisplay('settingsUser transitonOpen')
+            }
+        }}>
+            <Imgs className={'myPicture'} type={'mypicutre'} />
+            <div className={settingsUserDisplay}>
+                <ul className='list'>
+                    <li>Meus Dados</li>
+                    <li>Alterar Senha</li>
+                    <li>Planos</li>
+                    <li>Serviços</li>
+                    <li>Dúvidas Frequentes</li>
+                    <li>Contato</li>
+                    <li>Sair</li>
+                </ul>
+            </div>
+        </span>
     )
 }
