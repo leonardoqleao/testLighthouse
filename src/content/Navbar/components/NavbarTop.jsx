@@ -42,11 +42,11 @@ export const NavbarTop = () => {
                 </div>
                 <div>
                     <span onClick={() => setInfNotifyComment(0)} className='comment'>
-                        <span style={{ display: displayInfNotifyComment }} className='notificationNumbers'>{infNotifyComment}</span>
+                        <span style={{ display: displayInfNotifyComment }} className='notificationNumbers'><p>{infNotifyComment}</p></span>
                         <Imgs type={'comment'} height={30} />
                     </span>
                     <span onClick={() => setInfNotifyBell(0)} className={'bell'}>
-                        <span style={{ display: displayInfNotifyBell }} className='notificationNumbers'>{infNotifyBell}</span>
+                        <span style={{ display: displayInfNotifyBell }} className='notificationNumbers'><p>{infNotifyBell}</p></span>
                         <Imgs type={'bell'} height={30} />
                     </span>
                     <SettingsUser />
