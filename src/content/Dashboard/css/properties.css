@@ -12,6 +12,53 @@
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vendas .titleVendas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: #5A5773;
+    font-family: var(--font-mede);
+    font-size: 16px;
+    letter-spacing: -0.09px;
+    line-height: 24px;
+    fill: #1094FF;
+    margin: 0 0 0 10%
+}
+
+.titleVendas p {
+    margin-left: 10px;
+}
+
+.vendas .vendasValue {
+    color: #5A5773;
+    font-family: var(--font-black); 
+    font-size: 39px;
+    letter-spacing: -1.46px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.vendas .vendasStatus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #7e7e7e;;
+    font-family: var(--font-bold);
+    font-size: 18px;
+    letter-spacing: -0.67px;
+    line-height: 26px;
+    text-align: left;
+}
+.vendasStatus svg{
+    fill: #00D954;
+    margin: 7px 7px 0 0;
 }
 
 .faturamento {
@@ -21,7 +68,10 @@
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .conversao {
@@ -31,6 +81,10 @@
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .leads {
@@ -40,4 +94,8 @@
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
