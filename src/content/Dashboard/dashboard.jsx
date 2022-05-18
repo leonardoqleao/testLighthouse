@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { OptionsStyleContext } from '../../context'
-import { Properties } from "./components"
+import { Grafic, Properties } from "./components"
 import Imgs from "../../imgs"
 
 export default function Dashboard() {
@@ -22,7 +22,7 @@ export default function Dashboard() {
                 </div>
             </div>
             <Properties/>
-            <div className="grafic"></div>
+            <Grafic/>
         </div>
     )
 }
