@@ -1,9 +1,10 @@
 import { useState , createContext } from "react";
 
 const styleClass = {
-    navbarLeft: 'navbarLeft',
-    navbarOptions: 'navbarOptions',
-    navbarSignOut: 'navbarSignOut',
+    navbarLeft: 'navbarLeft navbarLeftClose',
+    navbarOptions: 'navbarOptions navbarOptionsClose',
+    navbarSignOut: 'navbarSignOut navbarSignOutClose',
+    dashboard: 'dashboard dashboardW'
 }
 
 export const OptionsStyleContext = createContext({
