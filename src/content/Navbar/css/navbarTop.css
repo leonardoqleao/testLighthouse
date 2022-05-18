@@ -39,7 +39,7 @@
     width: 90px;
 }
 
-.navbarTop2{
+.navbarTop2 {
     width: 84.51%;
     display: flex;
     justify-content: space-between;
@@ -47,13 +47,14 @@
     align-items: center;
 }
 
-.myPicture{
+.myPicture {
     border-radius: 100%;
     width: 30px;
     margin: 0 20px 0 10px;
     transition: all .1s;
 }
-.myPicture:hover{
+
+.myPicture:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -65,18 +66,21 @@
     transition: all .1s;
 }
 
-.comment, .bell{
+.comment,
+.bell {
     margin: 0 10px;
     cursor: pointer;
     fill: #5A5773;
     transition: all .1s;
 }
 
-.comment:hover, .bell:hover, .bars:hover{
-    fill:black;
+.comment:hover,
+.bell:hover,
+.bars:hover {
+    fill: black;
 }
 
-.notificationNumbers{
+.notificationNumbers {
     font-family: var(--font-reg);
     font-size: small;
     background-color: #00D954;
@@ -87,4 +91,67 @@
     margin: -6px 19px;
     position: absolute;
     text-align: center;
+
+}
+
+.settingsUser {
+    position: absolute;
+    width: 13.7vw;
+    height: 39.1vh;
+    background-color: #fff;
+    right: .4%;
+    top: 7.4%;
+    border-radius: 1px 1px 11px 11px;
+    box-shadow: 10px 45px 55px 0 rgba(35, 38, 90, 0.22);
+    overflow: hidden;
+    display: none;
+}
+
+
+
+.settingsUser .list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.settingsUser .list li {
+    width: 100%;
+    height: 100%;
+    color: #5A5773;
+    font-family: var(--font-mede);
+    font-size: 13px;
+    letter-spacing: -0.37px;
+    line-height: 24px;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #E6EAEE;
+    padding: 0 0 0 10%;
+    transition: all .1s;
+}
+.settingsUser .list li:hover{
+    opacity: 1;
+    background-color: #E6EAEE;
+    cursor: pointer;
+}
+.transitonOpen{
+    display: block;
+    animation: transitonOpen .1s;
+}
+
+@keyframes transitonOpen {
+    from{ height: 1vh; }
+    to{ height: 39.1vh; }
+}
+.transitonClose{
+    display: block;
+    animation: transitonClose .1s forwards;
+}
+
+@keyframes transitonClose {
+    from{ height: 39.1vh; }
+    to{ height: 0;}
 }
