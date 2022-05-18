@@ -10,7 +10,7 @@ export default function Imgs({ type, fill, height, className }) {
         case 'shopping-cart':  return <ShoppingCart  fill={fill} height={height} className={className}/>
         case 'receipt':        return <Receipt       fill={fill} height={height} className={className}/>
         case 'filter':         return <Filter        fill={fill} height={height} className={className}/>
-        case 'exchenge-alt':   return <ExchangeAlt   fill={fill} height={height} className={className}/>
+        case 'exchange-alt':   return <ExchangeAlt   fill={fill} height={height} className={className}/>
         case 'cog':            return <Cog           fill={fill} height={height} className={className}/>
         case 'chart-bar':      return <ChartBars     fill={fill} height={height} className={className}/>
         case 'dollar-sign':    return <DollarSign    fill={fill} height={height} className={className}/>
