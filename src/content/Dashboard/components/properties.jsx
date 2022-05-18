@@ -20,7 +20,7 @@ export const Properties = () => {
                     <p>Faturamento</p>
                 </div>
                 <p className="valueProperties">
-                    <p>R$</p>12.167.943
+                    <span>R$</span>12.167.943
                 </p>
                 <span className='statusProperties'>
                     <Imgs type={'sort-up'} height={20} />
