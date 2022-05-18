@@ -4,11 +4,13 @@
     background-color: brown;
     display: flex;
 }
+.statusProperties svg {
+    margin: 7px 7px 0 0;
+}
 
-.vendas {
+.propertiBox {
     width: 25%;
     height: 100%;
-    margin: 0 1.11% 0 2.22%;
     background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
@@ -16,6 +18,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    transition: all .1s;
+}
+.propertiBox:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 20px rgba(82, 82, 82, 0.271);
+}
+.vendas{
+    margin: 0 1.11% 0 2.22%;
 }
 
 .titleProperties {
@@ -74,24 +84,13 @@
 
 .vendas .statusProperties svg {
     fill: #00D954;
-    margin: 7px 7px 0 0;
 }
 .faturamento .statusProperties svg {
     fill: #00D954;
-    margin: 7px 7px 0 0;
 }
 
 .faturamento {
-    width: 25%;
-    height: 100%;
     margin: 0 1.11% 0 1.11%;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .faturamento .titleProperties svg {
@@ -99,27 +98,17 @@
 }
 
 .conversao {
-    width: 25%;
-    height: 100%;
     margin: 0 1.11% 0 1.11%;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+}
+.conversao .titleProperties svg {
+    fill: #FFD610;
+}
+.conversao .statusProperties svg{
+    margin: 0 7px 7px 0;
+    fill: #D90000;
+    transform: rotate(180deg);
 }
 
 .leads {
-    width: 25%;
-    height: 100%;
     margin: 0 2.22% 0 1.11%;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
 }
