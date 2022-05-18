@@ -20,7 +20,12 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
-            <div className="properties"></div>
+            <div className="properties">
+                <div className="vendas"></div>
+                <div className="faturamento"></div>
+                <div className="conversao"></div>
+                <div className="leads"></div>
+            </div>
             <div className="grafic"></div>
         </div>
     )
