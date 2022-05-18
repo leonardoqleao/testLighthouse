@@ -7,6 +7,7 @@ export const NavbarTop = () => {
     const [infNotifyBell, setInfNotifyBell] = useState(1);
     const [displayInfNotifyBell, setDisplayInfNotifyBell] = useState('');
     const [displayInfNotifyComment, setDisplayInfNotifyComment] = useState('');
+    const { style } = useContext(OptionsStyleContext)
 
     useEffect(() => {
         if (infNotifyBell <= 0) {
@@ -25,7 +26,7 @@ export const NavbarTop = () => {
     }, [infNotifyComment, infNotifyBell])
     return (
         <nav className="navbarTop">
-            <div className='navbarLogo'>
+            <div className={style.navbarLogo}>
                 <div className='container'>
                     <span>
                         <Imgs type={'logo'} className={'logo'} />
@@ -85,14 +86,16 @@ const BarsClick = () => {
             navbarLeft: 'navbarLeft navbarLeftAnimationClose',
             navbarOptions: 'navbarOptions navbarOptionsClose',
             navbarSignOut: 'navbarSignOut navbarSignOutClose',
-            dashboard: 'dashboard dashboardNavbarClose'
+            dashboard: 'dashboard dashboardNavbarClose',
+            navbarLogo: 'navbarLogo navbarLogoClose'
         }
         const navbarOpen = {
             open: true,
             navbarLeft: 'navbarLeft navbarLeftAnimationOpen',
             navbarOptions: 'navbarOptions',
             navbarSignOut: 'navbarSignOut',
-            dashboard: 'dashboard dashboardNavbarOpen'
+            dashboard: 'dashboard dashboardNavbarOpen',
+            navbarLogo: 'navbarLogo navbarLogoOpen'
         }
         if (style.open) {
             setStyle(navbarClose)
