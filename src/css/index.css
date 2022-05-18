@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @font-face {
   font-family: Inter-UI-Black;
   src: url(./font/Inter-UI-Black.otf);
 }
+
 @font-face {
   font-family: Inter-UI-Medium;
   src: url(./font/Inter-UI-Medium.otf);
 }
+
 @font-face {
   font-family: Inter-UI-Bold;
   src: url(./font/Inter-UI-Bold.otf);
 }
+
 @font-face {
   font-family: Inter-UI-Regular;
   src: url(./font/Inter-UI-Regular.otf);
 }
-:root{
+
+:root {
   --font-bold: Inter-UI-Bold;
   --font-mede: Inter-UI-Medium;
   --font-reg: Inter-UI-Regular;
@@ -26,24 +31,30 @@
   --dashOpen: 95%;
   --dashClose: 84.51%;
 }
-*::selection{
+
+*::selection {
   background: none;
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
-ul li, ul{
+
+ul li,
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.Home{
-  background-color:#F8F7FB;
+
+.Home {
+  background-color: #F8F7FB;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
+
 a {
   list-style-type: none;
   text-decoration: none;

@@ -1,22 +1,8 @@
-.dashboard{
+.dashboard {
     background-color: rgba(137, 43, 226, 0.479);
     height: 92.61%;
 }
-.dashboardW{
+
+.dashboardW {
     width: var(--dashOpen);
 }
-.dashboardNavbarOpen {
-    animation: dashboardNavbarOpen .1s forwards;
-}
-@keyframes dashboardNavbarOpen {
-    from{width: var(--dashOpen);}
-    to{width: var(--dashClose);}
-}
-.dashboardNavbarClose {
-    animation: dashboardNavbarClose .1s forwards;
-}
-@keyframes dashboardNavbarClose {
-    from{width: var(--dashClose);}
-    to{width: var(--dashOpen);}
-}
-
