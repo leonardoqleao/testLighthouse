@@ -1,86 +1,93 @@
 @media (max-width: 980px) {
-    :root{
+    :root {
         --navCloseW: 5%;
         --navOpenW: 16.49%;
         --dashOpen: 95%;
         --dashClose: 83.50%;
     }
-    .navbarTop2, .dashboard {
-        width: 83.50%;
-    }.settingsUser {
+
+    .settingsUser {
         width: 15.7vw;
     }
 }
+
 @media (max-width: 840px) {
-    :root{
+    :root {
         --navCloseW: 7%;
         --navOpenW: 20.49%;
         --dashOpen: 93%;
         --dashClose: 79.50%;
     }
-    .navbarTop2, .dashboard {
-        width: 79.50%;
-    }.settingsUser {
+
+    .settingsUser {
         width: 20.7vw;
     }
 }
+
 @media (max-width: 720px) {
-    :root{
+    :root {
         --navCloseW: 8%;
         --navOpenW: 25.49%;
         --dashOpen: 92%;
         --dashClose: 74.50%;
     }
-    .navbarTop2, .dashboard {
-        width: 74.50%;
-    }
+
     .settingsUser {
         width: 26.7vw;
     }
 }
+
 @media (max-width: 576px) {
-    :root{
+    :root {
         --navCloseW: 10%;
         --navOpenW: 30.49%;
         --dashOpen: 90%;
         --dashClose: 69.50%;
     }
-    .navbarTop2, .dashboard {
-        width: 69.50%;
-    }
 }
+
 @media (max-width: 480px) {
-    :root{
-        --navCloseW: 10%;
+    :root {
+        --navCloseW: 13%;
         --navOpenW: 40.49%;
-        --dashOpen: 90%;
+        --dashOpen: 87%;
         --dashClose: 59.50%;
     }
-    .navbarTop2, .dashboard {
-        width: 59.50%;
-    }
+
     .settingsUser {
         width: 33.7vw;
     }
 
 }
+
 @media (max-width: 400px) {
-    :root{
+    :root {
         --navCloseW: 15%;
-        --navOpenW: 60.49%;
+        --navOpenW: 40.49%;
         --dashOpen: 85%;
-        --dashClose: 39.50%;
+        --dashClose: 59.50%;
     }
-    .navbarTop2, .dashboard {
-        width: 39.50%;
-    }
-    .bell, .comment{
+
+    .bell,
+    .comment {
         display: none;
     }
-    .settingsUser{
+
+    .settingsUser {
         width: 38vw;
     }
-    .myPicture, .bars{
+
+    .myPicture,
+    .bars {
         margin: 0 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    :root {
+        --navCloseW: 15%;
+        --navOpenW: 50.49%;
+        --dashOpen: 85%;
+        --dashClose: 49.50%;
     }
 }
