@@ -1,12 +1,13 @@
 import { useContext } from "react"
 import { Link } from "react-router-dom"
-import { OptionsNavbarContext } from "../../../context"
+import { OptionsStyleContext, OptionsNavbarContext } from "../../../context"
 import Imgs from "../../../imgs"
 
 export default function NavbarOptions() {
+    const { style } =useContext(OptionsStyleContext)
     return (
-        <nav className="navbarLeft" >
-            <ul className='navbarOptions'>
+        <nav className={style.navbarLeft} >
+            <ul className={style.navbarOptions}>
                 <Dashboard />
                 <Leads />
                 <Campanhas />
@@ -15,7 +16,7 @@ export default function NavbarOptions() {
                 <Cobranca />
                 <Configuracoes />
             </ul>
-            <ul className='navbarSignOut'>
+            <ul className={style.navbarSignOut}>
                 <li>
                     <span className='svgClass'>
                         <Imgs type={'sign-out-alt'} height={16} />
@@ -28,7 +29,6 @@ export default function NavbarOptions() {
         </nav>
     )
 }
-
 function Dashboard() {
     const { selected, setSelected } = useContext(OptionsNavbarContext)
     return (
