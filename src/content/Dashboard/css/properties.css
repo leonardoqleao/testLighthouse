@@ -18,7 +18,7 @@
     justify-content: space-around;
 }
 
-.vendas .titleVendas {
+.titleProperties {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,35 +28,55 @@
     font-size: 16px;
     letter-spacing: -0.09px;
     line-height: 24px;
-    fill: #1094FF;
     margin: 0 0 0 10%
 }
 
-.titleVendas p {
+.vendas .titleProperties svg {
+    fill: #1094FF;
+}
+
+.titleProperties p {
     margin-left: 10px;
 }
 
-.vendas .vendasValue {
+.valueProperties {
     color: #5A5773;
-    font-family: var(--font-black); 
+    font-family: var(--font-black);
     font-size: 39px;
     letter-spacing: -1.46px;
     line-height: 26px;
-    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
-.vendas .vendasStatus {
+.valueProperties p {
+    color: #7e7e7e;
+    font-family: var(--font-bold);;
+    font-size: 19px;
+    letter-spacing: -0.11px;
+    line-height: 24px;
+    height: 100%;
+    margin-right: 3px;
+}
+
+.statusProperties {
     display: flex;
     align-items: center;
     flex-direction: row;
-    color: #7e7e7e;;
+    color: #7e7e7e;
     font-family: var(--font-bold);
     font-size: 18px;
     letter-spacing: -0.67px;
     line-height: 26px;
     text-align: left;
 }
-.vendasStatus svg{
+
+.vendas .statusProperties svg {
+    fill: #00D954;
+    margin: 7px 7px 0 0;
+}
+.faturamento .statusProperties svg {
     fill: #00D954;
     margin: 7px 7px 0 0;
 }
@@ -72,6 +92,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.faturamento .titleProperties svg {
+    fill: #00D954;
 }
 
 .conversao {

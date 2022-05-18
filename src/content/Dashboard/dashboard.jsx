@@ -22,21 +22,29 @@ export default function Dashboard() {
             </div>
             <div className="properties">
                 <div className="vendas">
-                    <div className="titleVendas">
+                    <div className="titleProperties">
                         <Imgs type={'shopping-cart'} height={20}/>
-                        <p>
-                            Vendas
-                        </p>
+                        <p>Vendas</p>
                     </div>
-                    <p className="vendasValue">
-                        245
-                    </p>
-                    <span className='vendasStatus'>
+                    <p className="valueProperties">245</p>
+                    <span className='statusProperties'>
                         <Imgs type={'sort-up'} height={20}/>
                         12,67%
                     </span>
                 </div>
-                <div className="faturamento"></div>
+                <div className="faturamento">
+                <div className="titleProperties">
+                        <Imgs type={'dollar-sign'} height={20}/>
+                        <p>Faturamento</p>
+                    </div>
+                    <p className="valueProperties">
+                        <p>R$</p>12.167.943
+                    </p>
+                    <span className='statusProperties'>
+                        <Imgs type={'sort-up'} height={20}/>
+                        4,67%
+                    </span>
+                </div>
                 <div className="conversao"></div>
                 <div className="leads"></div>
             </div>
