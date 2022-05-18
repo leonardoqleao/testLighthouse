@@ -21,8 +21,8 @@
   --font-reg: Inter-UI-Regular;
   --font-black: Inter-UI-Black;
   --font-rob: 'Roboto', sans-serif;
-  --navCloseW: 5vw;
-  --navOpenW: 15.49vw;
+  --navCloseW: 5%;
+  --navOpenW: 15.49%;
   --dashOpen: 95%;
   --dashClose: 84.51%;
 }

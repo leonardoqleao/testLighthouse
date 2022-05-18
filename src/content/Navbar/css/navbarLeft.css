@@ -70,10 +70,10 @@
 }
 
 .navbarLeftOpen{
-    width: 15.49vw;
+    width: var(--navOpenW);
 }
 .navbarLeftClose {
-    width: 5vw
+    width: var(--navCloseW);
 }
 
 .navbarOptionsClose p{
@@ -84,7 +84,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .navbarSignOutClose li{
     display: flex;
     align-items: center;

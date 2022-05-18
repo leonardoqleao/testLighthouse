@@ -2,14 +2,14 @@
     animation: navbarLeftAnimationClose .1s forwards;
 }
 @keyframes navbarLeftAnimationClose {
-    from{width: 15.49vw;}
-    to{width: 5vw;}
+    from{width: var(--navOpenW)}
+    to{width: var(--navCloseW)}
 }
 
 .navbarLeftAnimationOpen {
     animation: navbarLeftAnimationOpen .1s forwards;
 }
 @keyframes navbarLeftAnimationOpen {
-    from{width: 5vw;}
-    to{width: 15.49vw;}
+    from{width: var(--navCloseW)}
+    to{width: var(--navOpenW)}
 }
