@@ -61,4 +61,7 @@
     .settingsUser{
         width: 38vw;
     }
+    .myPicture, .bars{
+        margin: 0 10px;
+    }
 }
