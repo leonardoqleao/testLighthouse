@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './css';
 import Home from './Home.jsx';
 import { BrowserRouter as Router } from 'react-router-dom'
-import { OptionsNavbarProvider } from './context'
+import { OptionsStyleProvider } from './context'
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <OptionsNavbarProvider>
+      <OptionsStyleProvider>
         <Home />
-      </OptionsNavbarProvider>
+      </OptionsStyleProvider>
     </Router>
   </React.StrictMode>,
   document.getElementById("main")
