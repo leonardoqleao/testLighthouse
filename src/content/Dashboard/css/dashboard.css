@@ -5,3 +5,18 @@
 .dashboardW {
     width: var(--dashOpen);
 }
+.grafic {
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+}
+.properties {
+    height: 27%;
+    width: 100%;
+    background-color: brown;
+}
+.title {
+    height: 13%;
+    width: 100%;
+    background-color: gray;
+}

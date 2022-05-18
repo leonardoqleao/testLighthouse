@@ -4,7 +4,9 @@ export default function Dashboard() {
     const { style } = useContext(OptionsStyleContext)
     return (
         <div className={style.dashboard}>
-            bom diass
+            <div className="title"></div>
+            <div className="properties"></div>
+            <div className="grafic"></div>
         </div>
     )
 }
