@@ -20,10 +20,15 @@
   --font-mede: Inter-UI-Medium;
   --font-reg: Inter-UI-Regular;
   --font-black: Inter-UI-Black;
-  --font-rob: 'Roboto', sans-serif;;
+  --font-rob: 'Roboto', sans-serif;
+  --navCloseW: 5vw;
+  --navOpenW: 15.49vw;
+  --dashOpen: 95%;
+  --dashClose: 84.51%;
 }
-
-
+*::selection{/*Alterando a cor de fundo dos textos selecionados.*/
+  background: none;
+}
 * {
   margin: 0;
   box-sizing: border-box;
