@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useContext } from 'react'
+import { OptionsStyleContext } from "../../../context"
 import Imgs from '../../../imgs'
 
 export const NavbarTop = () => {
@@ -35,11 +36,7 @@ export const NavbarTop = () => {
                 </div>
             </div>
             <div className='navbarTop2'>
-                <div className='container'>
-                    <span>
-                        <Imgs className={'bars'} type={'bars'} height={30} />
-                    </span>
-                </div>
+                <BarsClick />
                 <div>
                     <span onClick={() => setInfNotifyComment(0)} className='comment'>
                         <span style={{ display: displayInfNotifyComment }} className='notificationNumbers'><p>{infNotifyComment}</p></span>
@@ -79,5 +76,33 @@ const SettingsUser = () => {
                 </ul>
             </div>
         </span>
+    )
+}
+const BarsClick = () => {
+    const { style, setStyle } = useContext(OptionsStyleContext)
+    const onClickMenu = () => {
+        const navbarClose = {
+            navbarLeft: 'navbarLeft',
+            navbarOptions: 'navbarOptions',
+            navbarSignOut: 'navbarSignOut',
+        }
+        const navbarOpen = {
+            open: true,
+            navbarLeft: '',
+            navbarOptions: '',
+            navbarSignOut: '',
+        }
+        if(style.open){
+            setStyle(navbarClose)
+        } else {
+            setStyle(navbarOpen)
+        }
+    }
+    return (
+        <div onClick={onClickMenu} className='container'>
+            <span >
+                <Imgs className={'bars'} type={'bars'} height={30} />
+            </span>
+        </div>
     )
 }
