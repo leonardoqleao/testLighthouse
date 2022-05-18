@@ -21,9 +21,7 @@ export default function NavbarOptions() {
                     <span className='svgClass'>
                         <Imgs type={'sign-out-alt'} height={16} />
                     </span>
-                    <span>
-                        Sair
-                    </span>
+                    <p> Sair </p>
                 </li>
             </ul>
         </nav>
@@ -37,7 +35,7 @@ function Dashboard() {
                 <span className='svgClass'>
                     <Imgs type={'chart-bar'} height={16} />
                 </span>
-                <span>Dashboard</span>
+                <p> Dashboard </p>
             </li>
         </Link>
     )
@@ -50,7 +48,7 @@ function Leads() {
                 <span className='svgClass'>
                     <Imgs type={'shovel'} height={16} />
                 </span>
-                <span>Leads</span>
+                <p> Leads </p>
             </li>
         </Link>
     )
@@ -63,9 +61,7 @@ function Campanhas() {
                 <span className='svgClass'>
                     <Imgs type={'bullseye-arrow'} height={16} />
                 </span>
-                <span>
-                    Campanhas
-                </span>
+                <p> Campanhas </p>
             </li>
         </Link>
     )
@@ -79,7 +75,7 @@ function Vendas() {
                 <span className='svgClass'>
                     <Imgs type={'shopping-cart'} height={16} />
                 </span>
-                <span>Vendas</span>
+                <p> Vendas </p>
             </li>
         </Link>
     )
@@ -93,7 +89,7 @@ function Clientes() {
                 <span className='svgClass'>
                     <Imgs type={'user'} height={16} />
                 </span>
-                <span>Clientes</span>
+                <p> Clientes </p>
             </li>
         </Link>
     )
@@ -107,7 +103,7 @@ function Cobranca() {
                 <span className='svgClass'>
                     <Imgs type={'receipt'} height={16} />
                 </span>
-                <span>Cobrança</span>
+                <p> Cobrança </p>
             </li>
         </Link>
     )
@@ -121,7 +117,7 @@ function Configuracoes() {
                 <span className='svgClass'>
                     <Imgs type={'cog'} height={16} />
                 </span>
-                <span>Configurações</span>
+                <p> Configurações </p>
             </li>
         </Link>
     )
