@@ -82,17 +82,19 @@ const BarsClick = () => {
     const { style, setStyle } = useContext(OptionsStyleContext)
     const onClickMenu = () => {
         const navbarClose = {
-            navbarLeft: 'navbarLeft',
-            navbarOptions: 'navbarOptions',
-            navbarSignOut: 'navbarSignOut',
+            navbarLeft: 'navbarLeft navbarLeftAnimationClose',
+            navbarOptions: 'navbarOptions navbarOptionsClose',
+            navbarSignOut: 'navbarSignOut navbarSignOutClose',
+            dashboard: 'dashboard dashboardNavbarClose'
         }
         const navbarOpen = {
             open: true,
-            navbarLeft: '',
-            navbarOptions: '',
-            navbarSignOut: '',
+            navbarLeft: 'navbarLeft navbarLeftAnimationOpen',
+            navbarOptions: 'navbarOptions',
+            navbarSignOut: 'navbarSignOut',
+            dashboard: 'dashboard dashboardNavbarOpen'
         }
-        if(style.open){
+        if (style.open) {
             setStyle(navbarClose)
         } else {
             setStyle(navbarOpen)
