@@ -1,15 +1,96 @@
-.navbarLeftAnimationClose, .navbarLogoClose {
-    animation: navbarLeftAnimationClose .1s forwards;
-}
-@keyframes navbarLeftAnimationClose {
-    from{width: var(--navOpenW)}
-    to{width: var(--navCloseW)}
+.transitonOpen {
+    display: block;
+    animation: transitonOpen .1s;
 }
 
-.navbarLeftAnimationOpen, .navbarLogoOpen {
+@keyframes transitonOpen {
+    from {
+        height: 1vh;
+    }
+
+    to {
+        height: 39.1vh;
+    }
+}
+
+.transitonClose {
+    display: block;
+    animation: transitonClose .1s forwards;
+}
+
+@keyframes transitonClose {
+    from {
+        height: 39.1vh;
+    }
+
+    to {
+        height: 0;
+    }
+}
+
+.navbarLeftAnimationClose,
+.navbarLogoClose {
+    animation: navbarLeftAnimationClose .1s forwards;
+}
+
+@keyframes navbarLeftAnimationClose {
+    from {
+        width: var(--navOpenW)
+    }
+
+    to {
+        width: var(--navCloseW)
+    }
+}
+
+.navbarLeftAnimationOpen,
+.navbarLogoOpen {
     animation: navbarLeftAnimationOpen .1s forwards;
 }
+
 @keyframes navbarLeftAnimationOpen {
-    from{width: var(--navCloseW)}
-    to{width: var(--navOpenW)}
+    from {
+        width: var(--navCloseW)
+    }
+
+    to {
+        width: var(--navOpenW)
+    }
+}
+
+@keyframes transtionOpenNavbar {
+    from {
+        width: 0;
+        font-size: 0px;
+    }
+}
+
+.dashboardNavbarOpen,
+.navbarTop2Open {
+    animation: dashboardNavbarOpen .1s forwards;
+}
+
+@keyframes dashboardNavbarOpen {
+    from {
+        width: var(--dashOpen);
+    }
+
+    to {
+        width: var(--dashClose);
+    }
+}
+
+.dashboardNavbarClose,
+.navbarTop2Close {
+    animation: dashboardNavbarClose .1s forwards;
+}
+
+@keyframes dashboardNavbarClose {
+    from {
+        width: var(--dashClose);
+    }
+
+    to {
+        width: var(--dashOpen);
+    }
 }
