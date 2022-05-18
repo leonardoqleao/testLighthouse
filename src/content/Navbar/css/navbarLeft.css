@@ -12,8 +12,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     height: 92.61vh;
-    background-color: #1800f02f;
-    border: solid 1px black;
+    background-color: #fff;
 }
 
 .navbarOptions {
@@ -27,7 +26,6 @@
     line-height: 24px;
     opacity: 0.5046037946428571;
     text-align: left;
-    border: solid 1px black;
     margin: 1px 0;
     height: 5.82vh;
     width: 96%;
@@ -61,7 +59,6 @@
 }
 
 .navbarSignOut li {
-    border: solid 1px black;
     width: 23%;
     margin-left: 11.48%;
     margin-bottom: 15%;

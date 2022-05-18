@@ -1,19 +1,18 @@
 .navbarTop {
     height: 7.39vh;
     width: 100vw;
-    background-color: rgba(0, 128, 0, 0.164);
-    border: solid 1px black;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
 }
 
 .navbarLogo {
     height: 7.39vh;
-    background-color: rgb(255, 144, 144);
-    border: solid 1px black;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-right: solid 1px #D8D8D8;
 }
 
 .navbarLogoW {
@@ -53,6 +52,8 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
+
 }
 
 .navbarTop2w {
