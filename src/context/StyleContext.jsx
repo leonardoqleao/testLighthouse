@@ -4,7 +4,8 @@ const styleClass = {
     navbarLeft: 'navbarLeft navbarLeftClose',
     navbarOptions: 'navbarOptions navbarOptionsClose',
     navbarSignOut: 'navbarSignOut navbarSignOutClose',
-    dashboard: 'dashboard dashboardW'
+    dashboard: 'dashboard dashboardW',
+    navbarLogo: 'navbarLogo navbarLogoW'
 }
 
 export const OptionsStyleContext = createContext({
