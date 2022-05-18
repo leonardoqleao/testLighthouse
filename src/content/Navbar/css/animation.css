@@ -1,4 +1,4 @@
-.navbarLeftAnimationClose {
+.navbarLeftAnimationClose, .navbarLogoClose {
     animation: navbarLeftAnimationClose .1s forwards;
 }
 @keyframes navbarLeftAnimationClose {
@@ -6,7 +6,7 @@
     to{width: var(--navCloseW)}
 }
 
-.navbarLeftAnimationOpen {
+.navbarLeftAnimationOpen, .navbarLogoOpen {
     animation: navbarLeftAnimationOpen .1s forwards;
 }
 @keyframes navbarLeftAnimationOpen {

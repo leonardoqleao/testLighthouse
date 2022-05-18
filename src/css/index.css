@@ -26,7 +26,7 @@
   --dashOpen: 95%;
   --dashClose: 84.51%;
 }
-*::selection{/*Alterando a cor de fundo dos textos selecionados.*/
+*::selection{
   background: none;
 }
 * {

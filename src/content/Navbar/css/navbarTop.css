@@ -8,7 +8,6 @@
 }
 
 .navbarLogo {
-    width: 15.49vw;
     height: 7.39vh;
     background-color: rgb(255, 144, 144);
     border: solid 1px black;
@@ -16,7 +15,12 @@
     align-items: center;
     justify-content: center;
 }
-
+.navbarLogoW{
+    width: var(--navCloseW);
+}
+.navbarLogoClose .logoname{
+    display: none;
+}
 .navbarLogo .container {
     width: 60%;
     height: 51px;
