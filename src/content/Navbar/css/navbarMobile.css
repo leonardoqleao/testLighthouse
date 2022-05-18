@@ -1,0 +1,64 @@
+@media (max-width: 980px) {
+    .navbarLeft, .navbarLogo{
+        width: 16.49vw;
+    }.navbarTop2, .dashboard {
+        width: 83.50%;
+    }.settingsUser {
+        width: 15.7vw;
+    }
+}
+@media (max-width: 840px) {
+    .navbarLeft, .navbarLogo{
+        width: 20.49vw;
+    }
+    .navbarTop2, .dashboard {
+        width: 79.50%;
+    }.settingsUser {
+        width: 20.7vw;
+    }
+}
+@media (max-width: 720px) {
+    .navbarLeft, .navbarLogo{
+        width: 25.49vw;
+    }
+    .navbarTop2, .dashboard {
+        width: 74.50%;
+    }
+    .settingsUser {
+        width: 26.7vw;
+    }
+}
+@media (max-width: 576px) {
+    .navbarLeft, .navbarLogo{
+        width: 30.49vw;
+    }
+    .navbarTop2, .dashboard {
+        width: 69.50%;
+    }
+}
+@media (max-width: 480px) {
+    .navbarLeft, .navbarLogo{
+        width: 40.49vw;
+    }
+    .navbarTop2, .dashboard {
+        width: 59.50%;
+    }
+    .settingsUser {
+        width: 33.7vw;
+    }
+
+}
+@media (max-width: 400px) {
+    .navbarLeft, .navbarLogo{
+        width: 60.49vw;
+    }
+    .navbarTop2, .dashboard {
+        width: 39.50%;
+    }
+    .bell, .comment{
+        display: none;
+    }
+    .settingsUser{
+        width: 38vw;
+    }
+}
