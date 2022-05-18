@@ -1,5 +1,22 @@
 .dashboard{
     background-color: rgba(137, 43, 226, 0.479);
-    width: 84.51%;
     height: 92.61%;
 }
+.dashboardW{
+    width: 95%;
+}
+.dashboardNavbarOpen {
+    animation: dashboardNavbarOpen .1s forwards;
+}
+@keyframes dashboardNavbarOpen {
+    from{width: 95%;}
+    to{width: 84.51%;}
+}
+.dashboardNavbarClose {
+    animation: dashboardNavbarClose .1s forwards;
+}
+@keyframes dashboardNavbarClose {
+    from{width: 84.51%;}
+    to{width: 95%;}
+}
+
