@@ -112,3 +112,9 @@
 .leads {
     margin: 0 2.22% 0 1.11%;
 }
+.leads .titleProperties svg{
+    fill: #9000D9;
+}
+.leads .statusProperties svg{
+    fill: #00D954;
+}

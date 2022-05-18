@@ -58,7 +58,19 @@ export default function Dashboard() {
                         21,67%
                     </span>
                 </div>
-                <div className="propertiBox leads"></div>
+                <div className="propertiBox leads">
+                    <div className="titleProperties">
+                        <Imgs type={'user'} height={16} />
+                        <p>Leads</p>
+                    </div>
+                    <p className="valueProperties">
+                        432
+                    </p>
+                    <span className='statusProperties'>
+                        <Imgs type={'sort-up'} height={20} />
+                        21,67%
+                    </span>
+                </div>
             </div>
             <div className="grafic"></div>
         </div>
