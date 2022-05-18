@@ -6,7 +6,7 @@ import Imgs from "../../imgs"
 export default function Dashboard() {
     const { style } = useContext(OptionsStyleContext)
     return (
-        <div className={style.dashboard}>
+        <section className={style.dashboard}>
             <div className="title">
                 <h1>
                     Indicadores
@@ -23,6 +23,6 @@ export default function Dashboard() {
             </div>
             <Properties/>
             <Grafic/>
-        </div>
+        </section>
     )
 }
