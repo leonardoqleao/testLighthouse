@@ -6,6 +6,7 @@
     justify-content: space-between;
     height: 92.61vh;
     background-color: #fff;
+    box-shadow: 20px 17px 20px 0px rgb(84 84 84 / 10%);
 }
 
 .navbarOptions {

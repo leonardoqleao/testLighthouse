@@ -10,12 +10,12 @@ export default function Home() {
       </OptionsNavbarProvider>
       <Routes>
         <Route exact path='/' element={<Dashboard />} />
-        <Route path='/leads' element={<div>Leads Empty</div>} />
-        <Route path='/campanhas' element={<div>Campanhas Empty</div>} />
-        <Route path='/vendas' element={<div>Vendas Empty</div>} />
-        <Route path='/clientes' element={<div>Clientes Empty</div>} />
-        <Route path='/cobranca' element={<div>Cobranca Empty</div>} />
-        <Route path='/configuracoes' element={<div>Configurações Empty</div>} />
+        <Route path='/leads' element={<></>} />
+        <Route path='/campanhas' element={<></>} />
+        <Route path='/vendas' element={<></>} />
+        <Route path='/clientes' element={<></>} />
+        <Route path='/cobranca' element={<></>} />
+        <Route path='/configuracoes' element={<></>} />
       </Routes>
     </div>
   )
