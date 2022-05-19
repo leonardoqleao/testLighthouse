@@ -2,18 +2,16 @@
     <h1 align="center">
         <img src="https://readme-typing-svg.herokuapp.com?color=F70404&size=30&duration=3500&center=true&vCenter=true&lines=Desafio:+Lighthouse"><br/><br/><br/>
     </h1>
-</div> <br /><br />
+</div>
 
-# Desafio Lighthouse
+O desafio é recriar uma página web utilizando **ReactJS** seguindo o modelo:
+<br />
 
-O desafio é recriar uma página web utilizando **ReactJS** seguindo o modelo
 ![Screenshot](./public/modelo.png)
-
-## Funcionalidades
-
+<br />
+## 🛠 Stack utilizada
 A página foi criada em ReactJS com CRA.
 
-## 🛠 Stack utilizada
 * [__*ReactJS*__](https://reactjs.org/)
 * [__*Recharts*__](https://recharts.org/en-US/)
 * [__*React-Router-Dom*__](https://v5.reactrouter.com/)
