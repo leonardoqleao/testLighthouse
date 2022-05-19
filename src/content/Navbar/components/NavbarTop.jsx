@@ -65,7 +65,7 @@ const SettingsUser = () => {
             }
         }}>
             <Imgs className={'myPicture'} type={'mypicutre'} />
-            <div className={settingsUserDisplay}>
+            <nav className={settingsUserDisplay}>
                 <ul className='list'>
                     <li>Meus Dados</li>
                     <li>Alterar Senha</li>
@@ -75,7 +75,7 @@ const SettingsUser = () => {
                     <li>Contato</li>
                     <li>Sair</li>
                 </ul>
-            </div>
+            </nav>
         </span>
     )
 }

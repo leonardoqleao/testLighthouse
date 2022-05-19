@@ -23,9 +23,9 @@ export const Grafic = () => {
             <div className='containerGrafic'>
                 <div className='yaxis'>
                     <span>0</span>
-                    <span>100</span>
+                    <span className='yaxis-mb'>100</span>
                     <span>200</span>
-                    <span>300</span>
+                    <span className='yaxis-mb'>300</span>
                     <span>400</span>
                 </div>
                 <div className="lineGrafic">
