@@ -42,7 +42,7 @@ export const Grafic = () => {
             </div>
             <div className="xaxis">
                 {data.map((data) => (
-                    <span className={parseInt(data.name) % 2 === 0 ? 'xaxis-mb' : ''}>{data.name}</span>
+                    <span key={data.name} className={parseInt(data.name) % 2 === 0 ? 'xaxis-mb' : ''}>{data.name}</span>
                 ))}
             </div>
         </div>
