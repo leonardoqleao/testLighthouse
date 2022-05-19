@@ -1,31 +1,49 @@
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import Imgs from '../../../imgs'
 
 export const Grafic = () => {
     return (
         <div className="grafic">
             <div className="graficTitle">
-                <span className='title'>
+                <div className='legendTitle'>
                     <Imgs type={'dollar-sign'} height={20} />
                     Faturamento vs Custo Fixo
-                </span>
-                <span className='legend'>
-                    <span className='legendFaturamento'>Faturamento</span>
-                    <span className='legendCustoFixo'> Custo Fixo </span>
-                </span>
+                </div>
+                <div className='legend'>
+                    <span className='legendFaturamento'>
+                        <div className="circle"></div>
+                        Faturamento
+                    </span>
+                    <span className='legendCustoFixo'>
+                        <div className="circle"></div>
+                        Custo Fixo
+                    </span>
+                </div>
             </div>
-            <div className="lineGrafic">
-                <ResponsiveContainer width="100%" height="100%">
-                    <AreaChart width={730} height={250} data={data}
-                        margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
-                        <XAxis />
-                        <YAxis />
-                        <CartesianGrid strokeDasharray="-" />
-                        <Tooltip />
-                        <Area type="monotone" dataKey="c" strokeWidth={"4px"} stroke="#00F25D" fill="url(#colorUv)" />
-                        <Area type="monotone" dataKey="f" strokeWidth={"4px"} stroke="#FF0000" fill="url(#colorPv)" />
-                    </AreaChart>
-                </ResponsiveContainer>
+            <div className='containerGrafic'>
+                <div className='yaxis'>
+                    <span>0</span>
+                    <span>100</span>
+                    <span>200</span>
+                    <span>300</span>
+                    <span>400</span>
+                </div>
+                <div className="lineGrafic">
+                    <ResponsiveContainer width="100%" height="100%">
+                        <AreaChart width={730} height={250} data={data}
+                            margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                            <CartesianGrid strokeDasharray="-" />
+                            <Tooltip />
+                            <Area type="monotone" dataKey="faturamento" strokeWidth={"4px"} stroke="#00F25D" fill="url(#colorUv)" />
+                            <Area type="monotone" dataKey="custo_fixo" strokeWidth={"4px"} stroke="#FF0000" fill="url(#colorPv)" />
+                        </AreaChart>
+                    </ResponsiveContainer>
+                </div>
+            </div>
+            <div className="xaxis">
+                {data.map((data) => (
+                    <span className={parseInt(data.name) % 2 === 0 ? 'xaxis-mb' : ''}>{data.name}</span>
+                ))}
             </div>
         </div>
     )
@@ -33,63 +51,68 @@ export const Grafic = () => {
 
 const data = [
     {
-        name: '1',
-        c: 300,
-        f: 200,
+        name: '0',
+        faturamento: 100,
+        custo_fixo: 50,
     },
     {
-        name: '2',
-        c: 200,
-        f: 0,
+        name: '01',
+        faturamento: 300,
+        custo_fixo: 200,
     },
     {
-        name: '3',
-        c: 300,
-        f: 200,
+        name: '02',
+        faturamento: 200,
+        custo_fixo: 10,
     },
     {
-        name: '4',
-        c: 200,
-        f: 0,
+        name: '03',
+        faturamento: 300,
+        custo_fixo: 200,
     },
     {
-        name: '5',
-        c: 300,
-        f: 400,
+        name: '04',
+        faturamento: 200,
+        custo_fixo: 10,
     },
     {
-        name: '6',
-        c: 150,
-        f: 250,
+        name: '05',
+        faturamento: 300,
+        custo_fixo: 400,
     },
     {
-        name: '7',
-        c: 250,
-        f: 100,
+        name: '06',
+        faturamento: 150,
+        custo_fixo: 250,
     },
     {
-        name: '8',
-        c: 300,
-        f: 200,
+        name: '07',
+        faturamento: 250,
+        custo_fixo: 100,
     },
     {
-        name: '9',
-        c: 260,
-        f: 0,
+        name: '08',
+        faturamento: 300,
+        custo_fixo: 200,
+    },
+    {
+        name: '09',
+        faturamento: 260,
+        custo_fixo: 10,
     },
     {
         name: '10',
-        c: 200,
-        f: 200,
+        faturamento: 200,
+        custo_fixo: 200,
     },
     {
         name: '11',
-        c: 350,
-        f: 400,
+        faturamento: 350,
+        custo_fixo: 400,
     },
     {
         name: '12',
-        c: 200,
-        f: 300,
+        faturamento: 200,
+        custo_fixo: 300,
     },
 ];
