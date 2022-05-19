@@ -35,7 +35,7 @@
 }
 
 .legend {
-    width: 20%;
+    width: 50%;
     margin-right: 4%;
     color: #7e7e7e;
     font-family: var(--font-reg);
@@ -43,13 +43,12 @@
     letter-spacing: -0.09px;
     line-height: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .legendCustoFixo,
 .legendFaturamento {
-    width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
