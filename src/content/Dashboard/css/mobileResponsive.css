@@ -1,3 +1,40 @@
+@media (max-height: 600px) {
+    .dashboard {
+        min-height: 92.61%;
+        overflow: scroll;
+    }
+    .properties {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 1.11%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .propertiBox {
+        height: 45%;
+        margin: 1.11%;
+        width: 25%;
+        min-width: 230px;
+    }
+}
+@media (max-height: 500px) {
+    .properties {
+        height: 70%;
+    }
+}
+@media (max-height: 430px) {
+    .properties {
+        height: 90%;
+    }
+    .yaxis-mb {
+        display: none;
+    }
+}
+
+
 @media (max-width: 1320px) {
     .dashboard {
         min-height: 92.61%;
@@ -50,4 +87,24 @@
     .xaxis-mb{
         display: none;
     }
+    .lineGrafic {
+        padding: .2% 0 0 4%;
+    }
 }
+@media (max-width: 480px) {
+    .lineGrafic {
+        padding: .2% 0 0 6%;
+    }
+    .grafic{
+        height: 40%;
+    }
+}
+@media (max-width: 340px) {
+    .lineGrafic {
+        padding: .2% 0 0 8%;
+    }
+    .grafic{
+        height: 30%;
+    }
+}
+
