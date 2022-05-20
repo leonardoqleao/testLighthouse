@@ -44,5 +44,10 @@ A página foi criada em ReactJS com CRA.
 
 > Mobile:
 
-![Screenshot](./public/ResultadoMob.png)
+
+<img alt="Leonardo-React" height="919" width="412" src="./public/mobile.png"/>
+
+<img alt="Leonardo-React" height="919" width="412" src="./public/Mobile.gif"/>
+
+
 
