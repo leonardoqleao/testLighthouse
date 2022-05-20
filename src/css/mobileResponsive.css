@@ -68,11 +68,6 @@
         --dashClose: 59.50%;
     }
 
-    .bell,
-    .comment {
-        display: none;
-    }
-
     .settingsUser {
         width: 38vw;
     }
@@ -83,13 +78,17 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
     :root {
         --navCloseW: 15%;
         --navOpenW: 50.49%;
         --dashOpen: 85%;
         --dashClose: 49.50%;
     }
+    .bell,
+    .comment {
+        display: none;
+    }   
 }
 
 @media (max-height: 720px) {
