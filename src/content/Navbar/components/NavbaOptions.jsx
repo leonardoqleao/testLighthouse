@@ -31,7 +31,7 @@ function Dashboard() {
     const { selected, setSelected } = useContext(OptionsNavbarContext)
     return (
         <Link to={'/'}>
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Dashboard: 'selected' }) }} className={selected.Dashboard}>
+            <li onClick={(e) => {setSelected({ Dashboard: 'selected' }) }} className={selected.Dashboard}>
                 <span className='svgClass'>
                     <Imgs type={'chart-bar'} height={16} />
                 </span>
@@ -44,7 +44,7 @@ function Leads() {
     const { selected, setSelected } = useContext(OptionsNavbarContext)
     return (
         <Link to={'/leads'}>
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Leads: 'selected' }) }} className={selected.Leads}>
+            <li onClick={(e) => {setSelected({ Leads: 'selected' }) }} className={selected.Leads}>
                 <span className='svgClass'>
                     <Imgs type={'shovel'} height={16} />
                 </span>
@@ -57,7 +57,7 @@ function Campanhas() {
     const { selected, setSelected } = useContext(OptionsNavbarContext)
     return (
         <Link to={'/campanhas'}>
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Campanhas: 'selected' }) }} className={selected.Campanhas} >
+            <li onClick={(e) => {setSelected({ Campanhas: 'selected' }) }} className={selected.Campanhas} >
                 <span className='svgClass'>
                     <Imgs type={'bullseye-arrow'} height={16} />
                 </span>
@@ -71,7 +71,7 @@ function Vendas() {
     return (
         <Link to={'/vendas'}>
 
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Vendas: 'selected' }) }} className={selected.Vendas} >
+            <li onClick={(e) => {setSelected({ Vendas: 'selected' }) }} className={selected.Vendas} >
                 <span className='svgClass'>
                     <Imgs type={'shopping-cart'} height={16} />
                 </span>
@@ -85,7 +85,7 @@ function Clientes() {
     return (
         <Link to={'/clientes'}>
 
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Clientes: 'selected' }) }} className={selected.Clientes} >
+            <li onClick={(e) => {setSelected({ Clientes: 'selected' }) }} className={selected.Clientes} >
                 <span className='svgClass'>
                     <Imgs type={'user'} height={16} />
                 </span>
@@ -99,7 +99,7 @@ function Cobranca() {
     return (
         <Link to={'/cobranca'}>
 
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Cobranca: 'selected' }) }} className={selected.Cobranca} >
+            <li onClick={(e) => {setSelected({ Cobranca: 'selected' }) }} className={selected.Cobranca} >
                 <span className='svgClass'>
                     <Imgs type={'receipt'} height={16} />
                 </span>
@@ -113,7 +113,7 @@ function Configuracoes() {
     return (
         <Link to={'/configuracoes'}>
 
-            <li onClick={(e) => { if (e.target.className === 'selected') setSelected({ Configuracoes: 'selected' }) }} className={selected.Configuracoes} >
+            <li onClick={(e) => {setSelected({ Configuracoes: 'selected' }) }} className={selected.Configuracoes} >
                 <span className='svgClass'>
                     <Imgs type={'cog'} height={16} />
                 </span>
