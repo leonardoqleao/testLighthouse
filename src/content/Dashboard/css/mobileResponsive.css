@@ -85,7 +85,7 @@
 }
 @media (max-width: 547px) {
     .properties{
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
 }
 @media (max-width: 480px) {
