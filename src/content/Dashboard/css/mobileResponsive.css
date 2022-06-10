@@ -1,7 +1,7 @@
 @media (max-height: 600px) {
     .dashboard {
         min-height: 92.61%;
-        overflow: scroll;
+        overflow: hidden;
     }
     .properties {
         height: 60%;
